@@ -1,0 +1,7 @@
+/* Reduce the unused side margins on wide desktop screens while keeping a
+   comfortable gutter and the original responsive layout on smaller screens. */
+@media (min-width: 1400px) {
+  .wrap {
+    max-width: 1800px;
+  }
+}

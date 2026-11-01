@@ -1,0 +1,3 @@
+District boundaries: geoBoundaries gbOpen BGD ADM2; Bangladesh Bureau of Statistics (BBS), OCHA ROAP. License: CC BY 3.0 IGO. https://www.geoboundaries.org/api/current/gbOpen/BGD/ADM2/
+Bengali name matching: nuhil/bangladesh-geocode districts data. https://github.com/nuhil/bangladesh-geocode
+Map is illustrative and not for legal boundary determination. Labels repositioned slightly for legibility.

@@ -1,0 +1,18 @@
+.corporate-section{padding:76px 0;background:linear-gradient(135deg,#fff5ec 0%,#fffaf6 58%,#fff0e4 100%);border-top:1px solid #f5ddca;border-bottom:1px solid #f5ddca;color:#20242a}
+.corporate-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:22px}
+.corporate-kicker{margin:0 0 9px;color:#f45100;font-size:.78rem;font-weight:800;letter-spacing:.11em}
+.corporate-section h2{max-width:800px;margin:0;font-size:clamp(2rem,4vw,3.2rem);line-height:1.15}
+.corporate-lead{margin:0 0 5px;color:#f45100;font-size:clamp(1rem,1.5vw,1.3rem);font-weight:750}
+.corporate-intro{max-width:940px;margin:0 0 32px;color:#56616c;font-size:1.05rem;line-height:1.85}
+.corporate-subtitle{margin:0 0 15px;font-size:1.2rem}
+.corporate-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 32px;padding:0;list-style:none}
+.corporate-list li{display:flex;align-items:center;min-height:58px;padding:14px 18px;background:rgba(255,255,255,.88);border:1px solid #f1d5c0;border-radius:12px;font-weight:700;box-shadow:0 4px 14px rgba(89,47,21,.045)}
+.corporate-list li:before{content:"";width:8px;height:8px;flex:0 0 8px;margin-right:12px;border-radius:50%;background:#ff5a00;box-shadow:0 0 0 4px #fff0e5}
+.corporate-commitment{max-width:1000px;padding:24px 28px;background:#fff;border-left:4px solid #ff5a00;border-radius:4px 14px 14px 4px;box-shadow:0 8px 28px rgba(89,47,21,.06)}
+.corporate-commitment h3{margin:0 0 9px;font-size:1.3rem}
+.corporate-commitment p{margin:0 0 10px;color:#56616c;line-height:1.8}
+.corporate-commitment p:last-child{margin-bottom:0}
+.corporate-signoff{display:flex;flex-direction:column;gap:4px;margin:24px 0 0;color:#20242a;letter-spacing:.06em}
+.corporate-signoff span{color:#77818a;font-size:.92rem;font-style:italic;letter-spacing:0}
+@media(max-width:760px){.corporate-section{padding:52px 0}.corporate-heading{align-items:flex-start;flex-direction:column;gap:12px}.corporate-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.corporate-list li{min-height:54px;padding:12px;font-size:.94rem}.corporate-commitment{padding:20px}}
+@media(max-width:430px){.corporate-list{grid-template-columns:1fr}}

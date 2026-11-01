@@ -1,0 +1,27 @@
+@media (min-width: 851px) {
+  #mapScroll {
+    height: min(78vh, 680px);
+    max-height: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #districtMap {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    min-width: 0;
+    flex: 0 0 auto;
+  }
+
+  #mapScroll.map-zoomed {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  #mapScroll.map-zoomed #districtMap {
+    height: auto;
+    max-width: none;
+  }
+}
